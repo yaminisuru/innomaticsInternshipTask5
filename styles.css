@@ -1,0 +1,57 @@
+/* Custom styles for the page */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(135deg, #6b7aff, #f06595);
+    padding: 100px 0;
+}
+
+/* Navbar */
+.navbar {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Awards Section */
+.awards-section img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+/* Courses Section */
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Classroom Environment Section */
+.classroom-section img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+/* Contact Form */
+.contact-section .form-group {
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: white;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
